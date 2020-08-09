@@ -1,0 +1,99 @@
+/* 
+
+================ Default styles ================
+
+*/
+
+* {
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+    font-size: 16px;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    line-height: 1.6em;
+}
+
+.brown {
+    background-color: #a87732;
+    color: whitesmoke;
+    text-shadow: 0.2px 0.2px white;
+}
+
+.info-box {
+    padding: 2em;
+}
+
+/* 
+
+================ Header ================
+
+*/
+.banner-img {
+    background-image: url('http://traversymedia.com/downloads/assets/beachshowcase.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    height: 500px;
+    margin-top: 0;
+
+}
+.banner-text {
+    position: absolute;
+    top: 5em;
+    text-align: center;
+    color: #a87732;
+}
+.banner-text h1 {
+    font-size: 3.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 1px 1px #a87732;
+}
+.banner-text p {
+    padding-bottom: 2em;
+}
+.read-btn {
+    border: 2px solid #a87732;
+    padding: .5rem;
+    border-radius: 15px;
+    text-decoration-line: none;
+}
+
+.read-btn:hover {
+    background-color: whitesmoke;
+    color: black;
+}
+
+/* 
+
+================ Lower section ================
+
+*/
+.main {
+    color: #a87732;
+}
+
+.small {
+    width: 33.33%;
+}
+footer {
+    display: flex;
+}
+
+/* 
+
+================ Media Queries ================
+
+*/
+
+
+@media (max-width: 750px) {
+    footer {
+        display: inline-block;
+    }
+    .small {
+        width: 100%;
+    }
+}
+
+
